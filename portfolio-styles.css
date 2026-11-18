@@ -1,0 +1,77 @@
+body{
+    background-color:#D8EAF7;
+}
+
+#container{
+    width:750px;
+    margin:auto;
+    padding:20px;
+    background-color:white;
+    border-left:2px solid #1B4F72;
+    border-right:2px solid #1B4F72;
+}
+
+h1{
+    font-size:70px;
+    color:#1B4F72;
+    margin:0;
+}
+
+h2{
+    font-size:24px;
+    font-weight:normal;
+}
+
+#menu{
+    width:170px;
+    float:left;
+}
+
+#menu ul{
+    list-style:none;
+    padding:0;
+}
+
+#menu li{
+    background:#AED6F1;
+    border:1px solid #1B4F72;
+    margin:5px 0;
+    padding:5px;
+}
+
+#main{
+    margin-left:190px;
+}
+
+#footer{
+    clear:both;
+    background:#1B4F72;
+    color:white;
+    text-align:center;
+    padding:10px;
+    margin-top:20px;
+}
+
+/* Individual photos get rounded corners and a border */
+.rightfloat{
+    float:right;
+    margin:8px;
+    border:2px solid #1B4F72;
+    border-radius: 8px;
+}
+
+/* Styling for your favorite musicians section */
+.musician-box {
+    background-color: #F0F8FF;
+    border: 1px solid #1B4F72;
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.musician-box h4 {
+    color: #1B4F72;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
